@@ -1,5 +1,5 @@
 from deep_translator import GoogleTranslator, single_detection
-from Lab_3.lab3_package.enums import LangSet, OutResult
+from .enums import LangSet, OutResult
 import pandas as pd
 
 def translate(text, src, dest):

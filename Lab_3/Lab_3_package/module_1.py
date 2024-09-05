@@ -1,7 +1,6 @@
 from googletrans import Translator, LANGUAGES
-from Lab_3.lab3_package.enums import LangSet, OutResult
+from .enums import LangSet, OutResult
 import pandas as pd
-
 
 def translate(text, scr, dest):
     translator = Translator()

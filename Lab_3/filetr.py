@@ -2,7 +2,7 @@ import csv
 import os
 import pandas as pd
 
-from Lab_3.lab3_package.module_1 import translate, lang_detect
+from Lab_3_package.module_1 import translate, lang_detect
 
 def read_config(config_file):
     try:

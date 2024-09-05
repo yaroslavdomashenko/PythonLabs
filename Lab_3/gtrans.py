@@ -1,5 +1,5 @@
-from Lab_3.lab3_package.enums import OutResult
-from Lab_3.lab3_package.module_1 import translate, language_list
+from Lab_3_package.enums import OutResult
+from Lab_3_package.module_1 import translate, language_list
 
 def main():
     text = input("Enter text to translate: ")
